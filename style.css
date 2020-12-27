@@ -525,7 +525,7 @@ body {
 .the-complete-lineup-artists .artist-single h2 {
     padding: 15px 35px;
     margin-top: 38px;
-    font-size: 12px;
+    font-size: 24px;
     font-weight: 600;
     background: white;
     border-radius: 20px;
@@ -582,11 +582,15 @@ body {
 }
 
 .see-complete-lineup .entry-footer .btn {
-    padding: 15px 35px;
-    border-radius: 0;
+    padding: 15px 60px;
+    border-radius: 20;
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 5px 10px;
     margin-right: 20px;
-    background: white;
+    background: #feff76;
     font-weight: 500;
+    font-size: 20px;
 }
 
 .see-complete-lineup .entry-footer a {
@@ -749,6 +753,8 @@ body {
 .home-page-last-news-wrap .featured-image {
     margin: 0;
     padding: 0;
+    background: hsl(0, 0%, 99%);
+    align-items: center;
     box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1);
 }
 
